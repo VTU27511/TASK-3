@@ -1,0 +1,12 @@
+folder name = Mod1.py
+def display():
+    print("Hello World")
+folder name = Mod2.py
+def sum(a, b):
+    return a + b
+from T3 import mod1
+from T3 import mod2
+folder name = sample_task3.py
+mod1.display()
+res = mod2.sum(1, 2)
+print(res)
